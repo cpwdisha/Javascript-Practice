@@ -1,0 +1,11 @@
+let book = {
+    name: "Fault in our STars",
+    pages: 500,
+    price: 100
+};
+
+let book_name = book.name;
+console.log(book_name);
+
+let{name, page, price} = book;
+console.log(name); .le f
